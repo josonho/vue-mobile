@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue';
-import { Button } from 'vant';
+import { Button, Card } from 'vant';
 import 'vant/lib/index.css';
 import 'lib-flexible';
 
 Vue.use(Button);
+Vue.use(Card);
 
 Vue.config.productionTip = false
 
